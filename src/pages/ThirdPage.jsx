@@ -17,7 +17,7 @@ const ThirdPage = () => {
       <Title title={" 멋사 NEWS"} />
       <NextStep>
         {/* /third/news는 components-Third-NewsList 파일입니다! */}
-        <Link to="/third/news">NEXT STEP -></Link>
+        <Link to="/third/news">NEXT STEP -{">"}</Link>
       </NextStep>
       <ThirdApi />
     </>

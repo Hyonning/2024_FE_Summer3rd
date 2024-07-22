@@ -16,7 +16,7 @@ const First = () => {
     <>
       <Title title={" 서버에서 받아오는 데이터를 확인해봅시다"} />
       <NextStep>
-        <Link to="/first/postTest">NEXT STEP -></Link>
+        <Link to="/first/postTest">NEXT STEP -{">"}</Link>
       </NextStep>
       <FirstAPI />
     </>
